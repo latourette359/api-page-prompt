@@ -6,13 +6,10 @@ We are going to build a sparse decision table! A decision table is a visual repr
 
 
 |  num_bathrooms  |  square footage  |  close to school  |  price  |   
-|                 |                  |                   |         |
+|        :---:      |         :---:         |         :---:          |     :---:    |
 |       <=1       |       1000       |         t         | 100000  |
-|                 |                  |                   |         |
 |       1-3       |       2000       |         f         | 200000  |
-|                 |                  |                   |         |
 |        >4       |       3000       |         t         | 300000  |
-|                 |                  |                   |         |
 
 
 What makes this a "sparse" decision table is that not all possibilities are represented. This makes the decision table easier to represent visually.
