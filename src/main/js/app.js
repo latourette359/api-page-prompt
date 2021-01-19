@@ -9,6 +9,8 @@ import {
 
 import LogoImage from "./assets/images/logo.png";
 
+import DecisionTable from "./decision_table"
+
 const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
@@ -76,7 +78,10 @@ export default function Dashboard() {
               className={classes.container}
               id="central_window"
             >
-              <div/>
+              <DecisionTable 
+
+
+              />
             </Container>
           </main>
      
