@@ -10,7 +10,7 @@ export function getTableObj() {
 		},
 		{
 			case: ">3",
-			action: "price = 3000000"
+			action: "price = 300000"
 		}
 		],
 		field: "# bathrooms"

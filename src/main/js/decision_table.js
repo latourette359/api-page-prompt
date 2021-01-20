@@ -16,17 +16,6 @@ import { getTableObj } from "./server_client"
 
 
 const useStyles = makeStyles(theme => ({
-  topBar: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    width: "100%"
-  },
-  titleContainer: {
-    display: "flex",
-    alignItems: "center",
-    width: 316
-  },
   actionButton: {
     width: 92,
     marginRight: 20,
@@ -44,10 +33,6 @@ const useStyles = makeStyles(theme => ({
   },
   form: {
     padding: "0 9px"
-  },
-  selectType: {
-    width: 180,
-    maxHeight: 46
   },
   displayFlex: {
     display: "flex"
@@ -120,20 +105,6 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function DecisionTable(props) {
-  const {
-    row,
-    rows,
-    index,
-    onDelete,
-    onSave,
-    onRuleChange,
-    ruleSet,
-    lastChecked,
-    errorMessage,
-    syntaxCheckFunc,
-    handleActivate,
-    ruleVersions
-  } = props;
 
   const classes = useStyles();
   const _defaultAction = { case: "", action: "" };
